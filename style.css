@@ -1,0 +1,240 @@
+:root{
+    --cor1: #7c26f8;
+      
+}
+/*********************
+Body
+************************/
+html, body, #home{
+	height: 100%;
+	overflow-x: hidden;
+}
+
+body{
+
+    background: url(imagens/capa.png), url(imagens/ruido.png), linear-gradient(to bottom, #862036, #40137e);
+    
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+}
+/**************
+Barra de Navegação
+*****************/
+
+nav.nav-transparente{
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #1DB954;
+}
+
+.divisor{
+    background-color: white;
+    width: 1px;
+    margin: 12px 15px;
+}
+
+.btn-sem-broda{
+    border: none;
+}
+
+
+/*************
+CARD: HOME
+********************/
+
+
+.btn-customizado{
+    color: white;
+    border-radius: 500px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    -webkit-border-radius:500px;
+	-moz-border-radius:500px;
+
+
+    transition: background 0.4s, color 0.4s;
+
+
+}
+
+.btn-roxo{
+    background: #7c26f8;
+    margin-bottom: 10px;
+}
+.btn-roxo:hover{
+    background: #4605a1;
+    color: rgb(216, 216, 216);
+}
+
+.btn-branco{
+    border: 2px solid white;
+}
+.btn-branco:hover{
+    background-color: white;
+    
+
+}
+
+.capa{
+    text-align: center;
+}
+
+/*****************
+Estrutura de Conteúdos
+*****************/
+/*Seção serviços*/
+.caixa{
+    padding: 20px 0px;
+}
+#servicos{
+    background: rgba(0, 0, 0, 0.76);
+    margin-bottom: 50px;
+}
+
+.albuns{
+    padding: 10px 0px;
+}
+
+.albuns .card {
+    
+    display: none;
+    width: 120%;
+}
+
+.albuns:hover .album-card {
+    display: none;
+}
+
+.albuns:hover .card {
+    
+    display: block;
+    transition: opacity 0.5s ease;
+}
+
+.card-text{
+    color: black;
+}
+
+
+
+
+#servicos h5{
+    color: #1DB954;
+    font-size: 0.63em;
+    padding-top: 8px;
+}
+
+.show:hover{
+    color: #1DB954;
+    font-size: 0.63em;
+    padding-top: 8px;
+}
+
+
+p{
+    
+    color: #ffffff;
+    font-size: 0.8em;
+}
+
+#servicos h2, h3{
+    color: #1DB954;
+    font-size: 1.8em;
+}
+.albuns{
+    padding: 10px 0px;
+}
+/*Recursos*/
+
+#recursos h2, #recursos p{
+    color: white;
+}
+
+#recursos h3{
+    color: #9bf0e1;
+}
+
+.rotacionar{
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+/****************
+Rodapé
+********************/
+footer{
+
+    background: black;
+    padding: 50px 15px 20px 15px;
+    position: relative;
+}
+
+footer h4{
+    font-size: 0.8em;
+    color: #919496;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a{
+    color: white;
+    text-decoration: none;
+}
+
+footer .navbar-nav a:hover{
+    color: #1DB954;
+    font-size: 0.99em;
+}
+
+footer ul li6{
+    float: right;
+    padding: 0px 10px;
+}
+footer  div{
+    margin-bottom: 10px;
+}
+
+
+/*********
+Tipografia
+*********/
+
+h1{
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 2.7em;
+    letter-spacing: -0.05em;
+}
+h3{
+    font-weight: 700;
+    font-size: 2em;
+    letter-spacing: -0.05em;
+    
+}
+
+/************************
+Media 
+************************/
+
+@media(max-width: 650px){
+    .iphone{
+        display: none;
+    }
+
+}
+
+
